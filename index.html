@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="navbar ">
+            <div class="Box1 border" >
+                <img class="logo" src="./assets/amazon-logo-transparent.webp"  alt="amazon-logo"/><span>.in</span>
+            </div>
+            <div class="Box2 border ">
+               <p class="deliver">Hello</p>
+                    <div class="loc-signin">
+                        <img class="location" src="./assets/location_pin-removebg-preview.png" height="20px"/>
+                        <p class="sign-in">Select your address</p>
+                    </div>
+            </div>
+            <div class="nav-search">
+                <select id="categories" name="categories" style="width:45px ; height:40px">
+                    <option value="All categories">All</option>
+                    <option value="Amazon devices ">Amazon devices</option>
+                    <option value="Amazon fashion">Amazon fashion</option>
+                    <option value="Appliances">Appliances</option>
+                    <option value="Baby">Baby</option>
+                    <option value="Books">Books</option>
+                    <option value="Car & motorbike">Car & motorbike</option>
+                    <option value="Clothing & accessories">Clothing & accessories</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Furniture">Furniture</option>
+                </select>
+                <input class="search-input" type="text" placeholder="Search Amazon.in" >
+                <div class="search-box">
+                    <img class="search-icon" src="./assets/search-icon.png" />
+                </div>
+            </div>
+            
+            <div class="region border">
+                <img class="flag" src="./assets/flag.png" height="16px"/><span>EN</span>
+            </div>
+            <div class="Account border w">
+                <div>
+                    <p class="first">Hello, sign in</p>
+                    <p class="second">Account & Lists</p>
+                </div>
+            </div>
+            <div class="returns border w">
+                <div>
+                    <p class="first">Returns</p>
+                    <p class="second">& Orders</p> 
+                </div>
+            </div>
+            <div class="cart border">
+                <img class="cart-img" src="./assets/cart png.png" alt="cart-img"/>
+            </div>
+            </div>
+        </div>
+    </header>
+    <div class="second-nav w">
+        <div class="menu border">
+            <div class="lines">
+                <div class="first line"></div>
+                <div class="second line"></div>
+                <div class="third line"></div>
+            </div>
+            <div class="All">
+                <p>All</p>
+            </div>
+        </div>
+        <div class="minitv border flex">
+            <p>Amazon miniTV</p>
+        </div>
+        <div class="sell border flex">
+            <p>Sell</p>
+        </div>
+        <div class="Best sellers border flex">
+            <p>Best Sellers</p>
+        </div>
+        <div class="mobiles border flex">
+            <p>Mobiles</p>
+        </div>
+        <div class="deals border flex">
+            <p>Today's Deals</p>
+        </div>
+        <div class="releases border flex">
+            <p>New Releases</p>
+        </div>
+        <div class="service border flex">
+            <p>Customer Service</p>
+        </div>
+        <div class="prime border flex">
+            <p>Prime</p>
+        </div>
+        <div class="electronics border flex">
+            <p>Electronics</p>
+        </div>
+        <div class="gift border flex">
+            <p>Gift Ideas</p>
+        </div>
+        <div class="home border flex">
+            <p>Home & Kitchen</p>
+        </div>
+        <div class="fashion border flex">
+            <p>Fashion</p>
+        </div>
+        <div class="pay border flex">
+            <p>Amazon Pay</p>
+        </div>
+        <div class="computers border flex">
+            <p>Computers</p>
+        </div>
+        <div class="launches border flex">
+            <p>New Launches from Mobiles, Electronics & more | Shop now</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="content">
+            <div class="box1 col">
+                <p>Bluetooth Calling Smartwatch starts at ₹1,999</p>
+                <img class="watch" src="./assets/smartwatch.jpg"/>
+                <p class="shop-now">Shop now</p>
+            </div>
+            <div class="box2 col">
+                <p>Up to 75% off | Headphones</p>
+                <div class="box-grid">
+                    <div class="boat">
+                        <img src="./assets/boat.jpg"/>
+                        <p class="tag">Up to 75% off | boAt</p>
+                    </div>
+                    <div class="boult">
+                        <img src="./assets/boult.jpg"/>
+                        <p class="tag">Up to 75% off | boult</p>
+                    </div>
+                    <div class="noise">
+                        <img src="./assets/noise.jpg"/>
+                        <p class="tag">Up to 75% off | Noise</p>
+                    </div>
+                    <div class="zebronics">
+                        <img src="./assets/zebronics.jpg"/>
+                        <p class="tag">Up to 75% off | Zebronics</p>
+                    </div>
+                    <p class="all-offers">See all offers</p>
+                </div>
+            </div>
+            <div class="box3 col">
+                <p>Revamp your home in style</p>
+                <div class="box-grid">
+                    <div class="decor">
+                        <img src="./assets/decor.jpg"/>
+                        <p class="tag">Home Decor</p>
+                    </div>
+                    <div class="furnishings">
+                        <img src="./assets/furnishings.jpg"/>
+                        <p class="tag">Home furnishings</p>
+                    </div>
+                    <div class="storage">
+                        <img src="./assets/storage.jpg"/>
+                        <p class="tag">Home storage</p>
+                    </div>
+                    <div class="lighting">
+                        <img src="./assets/lighting.jpg"/>
+                        <p class="tag">Lighting solutions</p>
+                    </div>
+                    <p class="all-offers">Explore all</p>
+                </div>
+            </div>
+            <div class="box4 col">
+                <p>Up to 60% off | Styles for men</p>
+                <div class="box-grid">
+                    <div class="clothing">
+                        <img src="./assets/clothing.jpg"/>
+                        <p class="tag">Clothing</p>
+                    </div>
+                    <div class="footwear">
+                        <img src="./assets/footwear.jpg"/>
+                        <p class="tag">Footwear</p>
+                    </div>
+                    <div class="watches">
+                        <img src="./assets/watches.jpg"/>
+                        <p class="tag">Watches</p>
+                    </div>
+                    <div class="bags">
+                        <img src="./assets/bags and wallets.jpg"/>
+                        <p class="tag">Bags & wallets</p>
+                    </div>
+                    <p class="all-offers">See all offers</p>
+                </div>
+            </div>
+            <div class="box5 col">
+                <p>Starting ₹99 | Toys for your kids</p>
+                <div class="box-grid">
+                    <div class="trikes">
+                        <img class="same-size" src="./assets/bikes trikes.jpg"/>
+                        <p class="tag">Starting ₹299 | Bikes, trikes & ride-ons</p>
+                    </div>
+                    <div class="sport-outdoor">
+                        <img class="same-size" src="./assets/sport outdoor.jpg"/>
+                        <p class="tag">Starting ₹149 | Sport & outdoor</p>
+                    </div>
+                    <div class="soft-toys">
+                        <img class="same-size" src="./assets/soft toys.jpg"/>
+                        <p class="tag">Starting ₹99 | Soft toys</p>
+                    </div>
+                    <div class="indoor-games">
+                        <img class="same-size" src="./assets/indoor games.jpg"/>
+                        <p class="tag">Starting ₹199 | Indoor games</p>
+                    </div>
+                    <p class="offers">See more</p>
+                </div>
+            </div>
+            <div class="box6 col">
+                <p>Up to 60% off | Styles for women</p>
+                <div class="box-grid">
+                    <div class="womens-clothing">
+                        <img src="./assets/womens clothing.jpg"/>
+                        <p class="tag">Womens's Clothing</p>
+                    </div>
+                    <div class="footwear-handbags">
+                        <img src="./assets/footwear+handbags.jpg"/>
+                        <p class="tag">Footwear+Handbags</p>
+                    </div>
+                    <div class="women-watches">
+                        <img src="./assets/watches women.jpg"/>
+                        <p class="tag">Watches</p>
+                    </div>
+                    <div class="jewellery">
+                        <img src="./assets/jewellery.jpg"/>
+                        <p class="tag">Fashion jewellery</p>
+                    </div>
+                    <p class="offers">Mega Fashion Days</p>
+                </div>
+            </div>
+            <div class="box7 col">
+                <p>Appliances for your home | Up to 55% off</p>
+                <div class="box-grid">
+                    <div class="ac">
+                        <img src="./assets/ac.jpg"/>
+                        <p class="tag">Air conditioners</p>
+                    </div>
+                    <div class="refrigerators">
+                        <img src="./assets/refrigerators.jpg"/>
+                        <p class="tag">Refrigerators</p>
+                    </div>
+                    <div class="microwaves">
+                        <img src="./assets/microwaves.jpg"/>
+                        <p class="tag">Microwaves</p>
+                    </div>
+                    <div class="washing-machines">
+                        <img src="./assets/washing machines.jpg"/>
+                        <p class="tag">Washing machines</p>
+                    </div>
+                    <p class="offers">See more</p>
+                </div>
+            </div>
+            <div class="box8 col">
+                <p>Automotive essentials | Up to 60% off</p>
+                <div class="box-grid">
+                    <div class="cleaning">
+                        <img src="./assets/cleaning.jpg"/>
+                        <p class="tag">Cleaning</p>
+                    </div>
+                    <div class="tyre-care">
+                        <img src="./assets/tyres care.jpg"/>
+                        <p class="tag">Tyre & rim care</p>
+                    </div>
+                    <div class="helmets">
+                        <img src="./assets/helmet.jpg"/>
+                        <p class="tag">Helmets</p>
+                    </div>
+                    <div class="vaccum-cleaner">
+                        <img src="./assets/vaccum cleaner.jpg"/>
+                        <p class="tag">Vacuum cleaner</p>
+                    </div>
+                    <p class="offers">Explore all</p>
+                </div>
+            </div>
+            <div class="rectangle one ">
+                <p>Frequently repurchased in Personal Care and Home</p>
+                <div class="personal">
+                    <img src="./assets/herbalimage1.jpg"/>
+                    <img src="./assets/herbalimage2.jpg"/>
+                    <img src="./assets/surfexcel.jpg"/>
+                    <img src="./assets/posture.jpg"/>
+                    <img src="./assets/blue pack.jpg"/>
+                    <img src="./assets/herbalimage3.jpg"/>
+                    <img src="./assets/muscleblaze.jpg"/>
+                    <img src="./assets/se supersaver.jpg"/>
+                </div>
+            </div>
+            <div class="rectangle two">
+                <p>Up to 70% off | Home decors from stores near you  <span class="all-offers  ">See all offers</span></p>
+                <div class="home-decor">
+                    <img src="./assets/homed1.jpg"/>
+                    <img src="./assets/homed2.jpg"/>
+                    <img src="./assets/homed3.jpg"/>
+                    <img src="./assets/homed4.jpg"/>
+                    <img src="./assets/homed5.jpg"/>
+                    <img src="./assets/homed6.jpg"/>
+                    <img src="./assets/homed7.jpg"/>
+                </div>
+
+            </div>
+            <div class="garden col">
+                <p>Gardening essentials | Starting ₹99</p>
+                <img class="garden-img" src="./assets/garden.jpg"/>
+                <p class="all-offers">See more</p>
+            </div>
+            <div class="fruits-veggies col">
+                <p>Flat ₹50 cashback | Fruits & vegetables | Amazon Fresh</p>
+                <div class="box-grid">
+                    <div class="fruits">
+                        <img class="fv" src="./assets/fruits.jpg"/>
+                        <p class="tag">Fruits</p>
+                    </div>
+                    <div class="veggies">
+                        <img class="fv" src="./assets/vegetables.jpg"/>
+                        <p class="tag">Vegetables</p>
+                    </div>
+                    <div class="seasonspecial">
+                        <img class="fv" src="./assets/season special.jpg"/>
+                        <p class="tag">Season's special</p>
+                    </div>
+                    <div class="visitstore">
+                        <img class="fv" src="./assets/visit store.jpg"/>
+                        <p class="tag">Visit the store</p>
+                    </div>
+                    <p class="offers">See all offers</p>
+                </div>
+            </div>
+            <div class="kitchen col">
+                <p>Starting ₹139 | Kitchen products</p>
+                <div class="box-grid">
+                    <div class="kit1">
+                        <img class="fv" src="./assets/kit1.jpg"/>
+                        <p class="tag">Starting ₹169 | Kitchen<br/> tools</p>
+                    </div>
+                    <div class="kit2">
+                        <img class="fv" src="./assets/kit2.jpg"/>
+                        <p class="tag">Starting ₹139 | Kitchen <br/>racks & holders</p>
+                    </div>
+                    <div class="kit3">
+                        <img class="fv" src="./assets/kit3.jpg"/>
+                        <p class="tag">Starting ₹249 | Oven<br/> gloves & more</p>
+                    </div>
+                    <div class="kit4">
+                        <img class="fv" src="./assets/kit4.jpg"/>
+                        <p class="tag">Starting ₹579 | Steamers<br/> & Idli Makers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shoes-jewellery col">
+                <p>Up to 20% cashback | Shoes, jewellery & more</p>
+                <div class="box-grid">
+                    <div class="sj1">
+                        <img  class="fv" src="./assets/sj1.jpg"/>
+                        <p class="tag">Sports shoes</p>
+                    </div>
+                    <div class="sj2">
+                        <img class="fv" src="./assets/sj2.jpg"/>
+                        <p class="tag">Jewellery and accessories</p>
+                    </div>
+                    <div class="sj3">
+                        <img class="fv" src="./assets/sj3.jpg"/>
+                        <p class="tag">Watches and smartwatches</p>
+                    </div>
+                    <div class="sj4">
+                        <img class="fv" src="./assets/sj4.jpg"/>
+                        <p class="tag">Bags, wallets & luggage</p>
+                    </div>
+                    <p class="offers">Mega Fashion Days</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="signin-div">
+        <div class="line-rectangle">
+            <div class="recommend">
+                <p>See personalized recommendations</p>
+                <div class="signin-btn">
+                   <p>Sign in</p>
+                </div>
+                <p>New customer? <span class="all-offers">Start here.</span></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="backtotop">
+            <p>Back to top</p>
+        </div>
+        <div class="about-us">
+            <div class="gettoknowus">
+                <p class="head">Get to Know Us</p>
+                <div class="ul">
+                    <ul>
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Press Releases</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="space-div"></div>
+            <div class="connectwithus">
+                <p class="head">Connect with Us</p>
+                <div class="ul">
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="space-div"></div>
+            <div class="makemoney">
+                <p class="head">Make Money with Us</p>
+                <div class="ul">
+                    <ul>
+                        <li>Sell on Amazon</li>
+                        <li>Sell under Amazon Accelerator</li>
+                        <li>Protect and Build Your Brand</li>
+                        <li>Amazon Global Selling</li>
+                        <li>Become an Affiliate</li>
+                        <li>Fulfilment by Amazon</li>
+                        <li>Advertise Your Products</li>
+                        <li>Amazon Pay on Merchants</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="space-div"></div>
+            <div class="helpyou">
+                <p class="head">Let Us Help You</p>
+                <div class="ul">
+                    <ul>
+                        <li>COVID-19 and Amazon</li>
+                        <li>Your Account</li>
+                        <li>Returns Centre</li>
+                        <li>100% Purchase Protection</li>
+                        <li>Amazon App Download</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr width="100%" size="0.1" color="#37475A">
+        <div class="logo-footer">
+            <div class="lf-first">
+                <img src="./assets/amazon logo imported.png" height="30px" width="76px" />
+                <div class="english">
+                    <img src="./assets/white-globe-icon-.jpg" height="15px" width="15px"/>
+                    <p style="color: white; font-size: 13px;">English</p>
+                    <img src="./assets/arrows-removebg-preview.png" height="12px" width="16px"/>
+                </div>
+            </div>
+            <div class="countries">
+                <ul class="unorderedlist">
+                    <li>Australia</li>
+                    <li>Brazil</li>
+                    <li>Canada</li>
+                    <li>China</li>
+                    <li>France</li>
+                    <li>Germany</li>
+                    <li>Italy</li>
+                    <li>Japan</li>
+                    <li>Mexico</li>
+                    <li>Netherlands</li>
+                    <li>Poland</li>
+                    <li>Singapore</li>
+                    <li>Spain</li>
+                    <li>Turkey</li>
+                    <li>United Arab Emirates</li>
+                    <div class="count-centre">
+                        <li>United Kingdom</li>
+                        <li>United States</li>
+                    </div>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div class="main-block">
+                <div class="abebooks bsize">
+                    <p class="b-title">AbeBooks</p>
+                    <p class="b-item">Books, art <br>& Collectibles</p>
+                </div>
+                <div class="navfooterdivspace"></div>
+                <div class="aws bsize">
+                    <p class="b-title">Amazon Web Services</p>
+                    <p class="b-item">Scalable Cloud</p>
+                    <p class="b-item">Computing Services</p>
+                </div>
+                <div class="navfooterdivspace"></div>
+                <div class="audile bsize">
+                    <p class="b-title">Audible</p>
+                    <p class="b-item">Download</p>
+                    <p class="b-item">Audio Books</p>
+                </div>
+                <div class="navfooterdivspace"></div>
+                <div class="dpreview bsize">
+                    <p class="b-title">DPReview</p>
+                    <p class="b-item">Digital</p>
+                    <p class="b-item">Photography</p>
+                </div>
+                <div class="navfooterdivspace"></div>
+                <div class="imdb bsize">
+                    <p class="b-title">IMDb</p>
+                    <p class="b-item">Movies, TV<br>& Celebrities</p>
+                </div>
+                <div class="shopbop bsize">
+                    <p class="b-title">Shopbop</p>
+                    <p class="b-item">Designer<br>Fashion Brands</p>
+                </div>
+                <div class="navfooterdivspace"></div>
+                <div class="amazonbusiness bsize">
+                    <p class="b-title">Amazon Business</p>
+                    <p class="b-item">Everything For<br>Your Business</p>
+                </div>
+                <div class="navfooterdivspace"></div>
+                <div class="primenow bsize">
+                    <p class="b-title">Prime Now</p>
+                    <p class="b-item">2-Hour Delivery<br>on Everyday Items</p>
+                </div>
+                <div class="navfooterdivspace"></div>
+                <div class="amzonprimemusic bsize">
+                    <p class="b-title">Amazon Prime Music</p>
+                    <p class="b-item">100 million songs, ad-free<br>Over 15 million podcast episodes</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

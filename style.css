@@ -481,17 +481,53 @@ li{
         border-radius: 4px;
         height:40px;
     }
+    .content{
+        background-image: url(./assets/cover\ image\ 2.jpg);
+        background-size: 1610px;
+        background-repeat: no-repeat;
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 6fr;
+        grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr; 
+        gap:40px 40px;
+        padding:280px 20px 20px 10px;
+    }
+    .main{
+        background-color: #E3E6E6;
+        display: flex;
+        justify-content: space-around;
+        width:1300px;
+        overflow-x: hidden;
+    }
+ 
+    .box1,.box5,.garden,.remove-img{
+        visibility: hidden;
+    }
     .navbar{
-        width:945px;
+        width:1300px;
     }
     .second-nav{
-        width:945px;
+        width:1300px;
     }
-    .releases,.service,.prime,.electronics,.gift,.home,.fashion,.pay,.computers{
+    .service,.electronics,.gift,.home,.fashion,.pay,.computers{
         display:none;
     }
     .signin-div,.footer,.backtotop,.about-us,.logo-footer,.footer-end,.copyright{
-        width:945px;
+        width:1300px
+    }
+    .rectangle{
+        padding:10px 40px 10px 10px;
+        width:1200px;
+        justify-self: center;
+    }
+    .rectangle p{
+        text-align: center;
+    }
+    .one{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .two{
+        padding-left: 10px;
     }
 }
 
